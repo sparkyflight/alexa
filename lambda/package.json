@@ -1,19 +1,20 @@
 {
-  "name": "sparkyflight",
-  "version": "0.0.1",
-  "description": "This is a Alexa skill for Sparkyflight, and it's services.",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Sparkyflight",
-  "license": "MIT",
-  "dependencies": {
-    "@sentry/cli": "^2.23.1",
-    "@sentry/node": "^7.91.0",
-    "ask-sdk-core": "^2.7.0",
-    "ask-sdk-model": "^1.19.0",
-    "aws-sdk": "^2.326.0"
-  }
+	"name": "sparkyflight",
+	"version": "0.0.1",
+	"description": "This is a Alexa skill for Sparkyflight, and it's services.",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"format": "prettier --write --plugin-search-dir=. ."
+	},
+	"author": "Sparkyflight",
+	"license": "MIT",
+	"dependencies": {
+		"@sentry/cli": "^2.23.1",
+		"@sentry/node": "^7.91.0",
+		"ask-sdk-core": "^2.7.0",
+		"ask-sdk-model": "^1.19.0",
+		"aws-sdk": "^2.326.0"
+	}
 }
