@@ -1,2 +1,2 @@
 git push origin master
-git push github production
+git push github master
